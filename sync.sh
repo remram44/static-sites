@@ -9,7 +9,7 @@ set -eu
 CONTROL_REPOSITORY=control
 
 # Control repository remote URL
-CONTROL_REMOTE_URL=https://github.com/remram44/static-sites-list.git
+CONTROL_REMOTE_URL=/tmp/control2
 
 # Where the website repositories are kept
 REPOSITORIES=repositories

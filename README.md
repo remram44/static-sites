@@ -13,3 +13,13 @@ Usage
 * Edit the configuration at the top: set `CONTROL_REMOTE_URL` to the URL of the control repository, e.g. `https://github.com/remram44/static-sites-list`
 * Install a web server (e.g. nginx or Apache2), make it serve the `WEB_ROOT` folder. Make sure that the folder is writable by the script and readable by the web server
 * Run the script every day using cron
+
+FAQ
+---
+
+### What if the sites' repositories are private?
+
+If you make the repositories private, you will need to give this script permission to clone them. You can either:
+
+* create a GitHub account for the script, that people can add as collaborator to their repositories, and put its credentials in a `.netrc` file; or
+* create an SSH key that people can add as a deploy key to their repositories
